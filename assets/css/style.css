@@ -135,3 +135,16 @@ img {
   color: #484848;
   font-weight: 500;
 }
+
+/* =-= Jobs area =-= */
+.jobs {
+  margin: 0 auto;
+  padding-top: 3rem;
+}
+
+.jobs__number {
+  font-size: 18px;
+  line-height: 1.33333333;
+  font-weight: 600;
+  text-align: center;
+}

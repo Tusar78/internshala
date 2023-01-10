@@ -61,6 +61,7 @@ html {
 body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
+  background-color: #F8F8F8;
 }
 
 h1,
@@ -104,6 +105,7 @@ img {
 .header {
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15);
   margin-bottom: 2px;
+  background-color: #fff;
 }
 
 /* =-= Navigation =-= */
@@ -241,7 +243,7 @@ img {
 
 .location__dropdown,
 .category__dropdown {
-  padding: 9px 11px;
+  padding: 10px 11px;
   background: #fff;
   border: 1px solid #ddd;
   font-size: 14px;
@@ -281,4 +283,99 @@ img {
 
 .filters__clear span {
   color: #008bdc;
+}
+
+/* =-= Job Area =-= */
+.jobs__wrap {
+  max-width: 616px;
+  margin-left: 24px;
+}
+
+.job__item {
+  background: #fff;
+  padding: 24px 24px 16px;
+  margin-bottom: 24px;
+  box-shadow: 0 0 4px rgba(72,72,72,.12), 0 2px 2px rgba(72,72,72,.08);
+  border-radius: 8px;
+}
+
+.job__offer-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.job__offer-title {
+  font-size: 18px;
+  line-height: 1.3;
+  font-weight: 600;
+  color: #484848;
+  cursor: pointer;
+}
+
+.job__offer-badge {
+  background: #FF8C00;
+  border-radius: 12px 0 0 12px;
+  color: #fff;
+  padding: 4px 23px;
+  margin-left: 16px;
+}
+
+.job__offer {
+  padding-right: 0;
+}
+
+.job__offer-text--wrap {
+  margin-bottom: 8px;
+}
+
+.job__offer-text {
+  margin-bottom: 12px; 
+  font-size: 14px;
+  color: #484848;
+  font-weight: 400;
+  display: block;
+}
+
+.job__offer-text {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.job__offer-text span {
+  font-weight: 600;
+}
+
+.job__offer-certified-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.job__offer-certified--text {
+  padding: 6px 12px;
+  background-color: #F8F8F8;
+  border-radius: 14px;
+  font-size: 14px;
+  color: #666;
+  line-height: 16px;
+}
+
+.job__offer-inrolled--wrap {
+  display: flex;
+  align-items: center;
+  padding-right: 24px;
+}
+
+.job__offer-introlled--text {
+  font-weight: 500;
+  color: #008BDC;
+  cursor: pointer;
+  line-height: 1.14;
+}
+
+.job__offer-introlled--icon {
+  color: #008BDC;
 }

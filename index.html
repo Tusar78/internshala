@@ -80,20 +80,20 @@
                 <i class="uil uil-filter fiters__title--icon"></i>
                 Filters
               </h2>
-              <form>
+              <form class="filters__form">
                 <div class="filters__search">
-                  <label for="search">Search</label>
+                  <label for="search" class="filters__search--label">Search</label>
                   <div class="filers__search-filled">
-                    <input type="text" id="search" class="search__input" />
+                    <input type="text" id="search" class="search__input" placeholder="e.g. Design, Mumbai, Infosys" />
                     <button type="button" class="search__btn">
-                      <i class="uil uil-search" class="search__btn--icon"></i>
+                      <i class="uil uil-search search__btn--icon"></i>
                     </button>
                   </div>
                 </div>
 
                 <div class="filters__category">
-                  <label for="category">Category</label>
-                  <select id="category">
+                  <label for="category" class="category__label">Category</label>
+                  <select id="category" class="category__dropdown">
                     <option>e.g. Marketing</option>
                     <option value=".net-framework">.Net Framework</option>
                     <option value="accounting">Accounting</option>
@@ -102,8 +102,8 @@
                 </div>
 
                 <div class="filters__location">
-                  <label for="location">Category</label>
-                  <select id="location">
+                  <label for="location" class="location__label">Category</label>
+                  <select id="location" class="location__dropdown">
                     <option>e.g.Delhi</option>
                     <option value="Dhaka">Dhaka</option>
                     <option value="Kushtia">Kushtia</option>

@@ -581,3 +581,34 @@ img {
   color: #008bdc;
   cursor: pointer;
 }
+
+/* =-= FAQ section =-= */
+.faq {
+  margin: 0 auto;
+}
+
+.faq__wrap {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 56px;
+}
+
+.faq__btn--icon {
+  font-size: 1rem;
+}
+
+.faq__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 11px 15px;
+  background: #fff;
+  border: 1px solid #008bdc;
+  box-sizing: border-box;
+  border-radius: 3px;
+  color: #008bdc;
+  font-weight: 600;
+  min-width: 80px;
+  line-height: 1.14285714;
+  font-size: 14px;
+}

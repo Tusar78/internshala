@@ -528,3 +528,23 @@ img {
   cursor: pointer;
   font-weight: 600;
 }
+
+.job__pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.job__pagination-text {
+  font-size: 14px;
+  font-weight: 600;
+  color: #484848;
+}
+
+.job__pagination-icon {
+  cursor: pointer;
+  color: #8A8A8A;
+}
+
+.job__pagination-icon:last-child {
+  color: #008BDC;
+}

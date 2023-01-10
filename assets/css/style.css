@@ -283,6 +283,7 @@ img {
 
 .filters__clear span {
   color: #008bdc;
+  cursor: pointer;
 }
 
 /* =-= Job Area =-= */

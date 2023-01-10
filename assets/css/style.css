@@ -1,11 +1,11 @@
 /*==== Using "Poppins" fonts from fonts.google.com ====*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
 
 /*==== CSS variables ====*/
 :root {
 
   /*==== Font and typography ====*/
-  --body-font: "Poppins", sans-serif;
+  --body-font: 'Inter', sans-serif;
   --big-font-size: 2rem;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
@@ -101,3 +101,36 @@ img {
   gap: 1.5rem;
 }
 
+/* =-= Header =-= */
+.header {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15);
+  margin-bottom: 2px;
+}
+
+/* =-= Navigation =-= */
+.nav {
+  height: 72px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__logo {
+  display: block;
+  margin-top: -9px;
+}
+
+.nav__logo--img {
+  width: 112px;
+}
+
+.nav__list {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav__link {
+  font-size: 14px;
+  color: #484848;
+}

@@ -1,27 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <!--=-= Required Meta Tags =-=-->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--=-= Change Theme Color =-=-->
-    <meta name="theme-color" content="#9d4edd">
+    <meta name="theme-color" content="#9d4edd" />
 
     <!--=-= Connect Box Icon =--=-->
-    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
 
     <!--=-= Connect Style File =-=-->
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
 
     <title>Website Title</title>
-</head>
-<body>
-    <h1>This is First Heading</h1>
-    <p>This is Paragraph</p>
-    
+  </head>
+  <body>
+    <!-- =-= Header =-= -->
+    <header class="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <img
+            src="./assets/images/internshala_logo.svg"
+            alt="Website Logo"
+            class="nav__logo--img"
+          />
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">
+                Internship
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                Courses
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                Jobs
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="nav__link">
+                Login
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">
+                Register
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times nav__close" id="nav-close"></i>
+        </div>
+
+        <!-- <div class="nav__btns"> -->
+          <!--==== Theme change button ====-->
+          <!-- <i class="uil uil-moon change-theme" id="theme-button"></i>
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div> -->
+      </nav>
+    </header>
+
+    <!-- =-= Main =-= -->
+    <main class="main"></main>
+    <!-- =-= Footer =-= -->
+    <footer class="footer"></footer>
     <!--=-= Connect Script File =-=-->
     <script src="./assets/js/main.js"></script>
-</body>
+  </body>
 </html>

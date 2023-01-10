@@ -703,3 +703,16 @@ img {
   color: #fff;
   padding: 9px 0;
 }
+
+.top-footer__link--badge {
+  background-color: #FF8C00;
+  color: #fff;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: .5px;
+  padding: 3px;
+  margin-left: 4px;
+  line-height: 1.2;
+  text-transform: uppercase;
+}

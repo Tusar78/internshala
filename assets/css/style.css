@@ -1,11 +1,10 @@
 /*==== Using "Poppins" fonts from fonts.google.com ====*/
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
 
 /*==== CSS variables ====*/
 :root {
-
   /*==== Font and typography ====*/
-  --body-font: 'Inter', sans-serif;
+  --body-font: "Inter", sans-serif;
   --big-font-size: 2rem;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
@@ -142,9 +141,37 @@ img {
   padding-top: 3rem;
 }
 
+.jobs__number-wrap {
+  max-width: 616px;
+  margin-right: auto;
+  margin-left: calc(50% - 138px);
+}
+
 .jobs__number {
   font-size: 18px;
   line-height: 1.33333333;
   font-weight: 600;
   text-align: center;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.jobs__feature {
+  display: flex;
+  margin: 24px auto 40px;
+  min-height: 734px;
+  max-width: 956px;
+}
+
+.jobs__filters {
+  width: 316px;
+  margin-top: 4px;
+}
+
+.filters {
+  width: 100%;
+  background-color: #fff;
+  padding: 23px;
+  border: 1px solid #eee;
+  border-radius: 6px;
 }

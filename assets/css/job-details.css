@@ -15,10 +15,10 @@
   color: #333;
 }
 
-.job__details-item{
+.job__details-item {
   box-shadow: none;
   border-radius: 6px;
-  border: 1px solid #EEE;
+  border: 1px solid #eee;
 }
 
 .job__applicants {
@@ -34,12 +34,12 @@
   color: #484848;
   line-height: 22px;
   font-weight: 400;
-  gap: .25rem;
+  gap: 0.25rem;
 }
 
 .applicant__numbers--icon {
   font-size: 24px;
-  color: #8A8A8A;
+  color: #8a8a8a;
 }
 
 .applicant__share {
@@ -49,7 +49,7 @@
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  color: #008BDC;
+  color: #008bdc;
   padding: 0;
   margin-bottom: 24px;
 }
@@ -60,4 +60,125 @@
 
 .applicant__share:hover {
   background-color: #eee;
+}
+
+.job__company--title {
+  font-size: 16px;
+  line-height: 1.25;
+  font-weight: 600;
+  color: #333;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+.company__text {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #484848;
+}
+
+.company__since {
+  margin-top: 16px;
+  margin-bottom: 24px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.company__since-heading {
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: 600;
+  color: #484848;
+  margin-bottom: 8px;
+}
+
+.company__since-date {
+  display: flex;
+  gap: 24px;
+}
+
+.since__date-item {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #484848;
+}
+
+.since__date-item--icon {
+  font-size: 1rem;
+  margin-top: -1px;
+}
+
+.responsibility__list {
+  margin-top: 1.5rem;
+}
+
+.responsibility-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  padding-bottom: 8px;
+  color: #484848;
+}
+
+.responsibility__other-details {
+  margin-top: 1.5rem;
+}
+
+.skills__list {
+  margin-bottom: 8px;
+}
+
+.skills__item {
+  background: #F8F8F8;
+  color: #666;
+  padding: 6px 12px;
+  border-radius: 14px;
+  margin-right: 16px;
+  margin-bottom: 8px;
+  line-height: 16px;
+}
+
+.skills__certificate-text {
+  margin-top: 1rem;
+  margin-bottom: 8px;
+}
+
+.skills__certificate-list {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 8px;
+}
+
+.skills__certificate-item {
+  font-weight: 500;
+  text-decoration: none;
+  color: #008BDC;
+  cursor: pointer;
+  line-height: 1.14;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.job__btn-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.job__btn {
+  background-color: #00A5EC;
+  padding: 12px 32px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  cursor: pointer;
 }

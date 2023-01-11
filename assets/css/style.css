@@ -831,4 +831,25 @@ img {
   .top-footer__list {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .footer__copyright {
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}
+
+/* =-= Large Mobile Screen 576px =-= */
+@media screen and (max-width: 576.98px) {
+  .top-footer__list {
+    grid-template-columns: 1fr;
+  }
+
+  .footer__social {
+    flex-direction: column;
+  }
+
+  .social__playstore {
+    order: 1;
+  }
 }

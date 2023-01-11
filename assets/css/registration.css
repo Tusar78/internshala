@@ -1,6 +1,7 @@
 .registration {
   margin: 0 auto;
   padding-top: 3rem;
+  min-height: 100vh;
 }
 
 .registration__heading {
@@ -102,4 +103,101 @@
 
 .form {
   margin-top: 1rem;
+}
+
+.form__group {
+  display: grid;
+  gap: 4px;
+  margin-bottom: 1rem;
+}
+
+.form__label {
+  font-weight: 500;
+  font-size: 14px;
+  color: #333;
+}
+
+.form__filled {
+  padding: 11px;
+  background: #fff;
+  color: #484848;
+  border: 1px solid #DDD;
+  border-radius: 3px;
+  font-size: 14px;
+  height: 40px;
+  outline: none;
+  font-family: "Inter", sans-serif;
+  transition: border .2s ease-in;
+}
+
+.form__filled:hover {
+  border-color: #00A5EC;
+}
+
+.form__filled:focus {
+  border-color: #00A5EC;
+}
+
+.form__name-group {
+  width: 100%;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.form__group--inner {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding-right: 6px;
+  gap: 4px;
+}
+
+.form__group--inner:last-child {
+  padding-right: 0;
+  padding-left: 6px;
+}
+
+.form__terms {
+  font-size: 12px;
+  font-weight: 400;
+  color: #484848;
+  line-height: 1.5;
+}
+
+.terms--link {
+  font-weight: 500;
+  color: #008BDC;
+  cursor: pointer;
+}
+
+.form__btn-wrap {
+  margin: 12px 0 16px;
+}
+
+.form__btn {
+  width: 100%;
+  padding: 11px 0;
+  background: #00A5EC;
+  color: #fff;
+  border-radius: 3px;
+  border: 1px solid #00A5EC;
+  font-weight: 600;
+  min-width: 80px;
+  line-height: 1.14;
+  font-size: 14px;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+}
+
+.form__reg {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  counter-reset: #333;
+}
+
+.form__reg--login {
+  color: #008BDC;
+  cursor: pointer;
 }

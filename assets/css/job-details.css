@@ -14,3 +14,50 @@
   font-weight: 600;
   color: #333;
 }
+
+.job__details-item{
+  box-shadow: none;
+  border-radius: 6px;
+  border: 1px solid #EEE;
+}
+
+.job__applicants {
+  margin-top: 28px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.applicant__numbers {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #484848;
+  line-height: 22px;
+  font-weight: 400;
+  gap: .25rem;
+}
+
+.applicant__numbers--icon {
+  font-size: 24px;
+  color: #8A8A8A;
+}
+
+.applicant__share {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: #008BDC;
+  padding: 0;
+  margin-bottom: 24px;
+}
+
+.applicant__share--icon {
+  font-size: 20px;
+}
+
+.applicant__share:hover {
+  background-color: #eee;
+}

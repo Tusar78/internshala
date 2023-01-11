@@ -1,0 +1,16 @@
+.job__details {
+  max-width: 940px;
+}
+
+.jobs__details-heading {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.jobs__details-title {
+  font-size: 28px;
+  line-height: 1.2;
+  font-weight: 600;
+  color: #333;
+}

@@ -37,18 +37,66 @@
     <!-- =-= Main =-= -->
     <main class="main">
       <section class="registration container">
-        <div class="registration__heading">
-          <div class="registration__title-wrap">
-            <h2 class="registration__title">Sign-up and apply for free</h2>
-            <img
-              class="registration__underline"
-              src="./assets/images/underline_d.svg"
-              alt="underline image"
-            />
+        <div class="registration__wrap">
+          <div class="registration__heading">
+            <div class="registration__title-wrap">
+              <h2 class="registration__title">Sign-up and apply for free</h2>
+              <img
+                class="registration__underline"
+                src="./assets/images/underline_d.svg"
+                alt="underline image"
+              />
+            </div>
+            <h4 class="registration__subtitle">
+              1,50,000+ companies hiring on Internshala
+            </h4>
           </div>
-          <h4 class="registration__subtitle">
-            1,50,000+ companies hiring on Internshala
-          </h4>
+
+          <div class="registration__form">
+            <div class="registration__google">
+              <button type="button" class="google__btn">
+                <img class="google__btn--icon" src="./assets/images/google_logo.svg" alt="Google Icon">
+                Sign up with Google
+              </button>
+            </div>
+
+            <div class="registration__divider">
+              <span class="registration__divider--text">OR</span>
+            </div>
+
+            <form class="form" >
+              <div class="form__group">
+                <label for="email" class="form__label">Email</label>
+                <input id="email" type="email" class="form__filled">
+              </div>
+              <div class="form__group">
+                <label for="password" class="form__label">Password</label>
+                <input id="password" type="password" class="form__filled">
+              </div>
+              <div class="form__name-group">
+                <div class="form__group">
+                  <label for="fname" class="form__label">First Name</label>
+                  <input id="fname" type="text" class="form__filled">
+                </div>
+                <div class="form__group">
+                  <label for="lname" class="form__label">Last Name</label>
+                  <input id="lname" type="text" class="form__filled">
+                </div>
+              </div>
+
+              <p class="form__terms">
+                By signing up, you agree to our <span class="terms--link">Terms and Conditions</span>.
+              </p>
+
+              <div class="form__btn-wrap">
+                <button class="form__btn" type="button">Sign up</button>
+              </div>
+
+              <p class="form__reg">
+                Already registered? <span class="form__reg--login">Login</span>
+              </p>
+            </form>
+          </div>
         </div>
       </section>
     </main>

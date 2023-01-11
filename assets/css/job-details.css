@@ -1,5 +1,16 @@
-.job__details {
-  max-width: 940px;
+.job__details{
+  max-width: 956px;
+  margin-left: 0;
+}
+
+.job__banner  {
+  max-width: 956px;
+  margin: 0 auto;
+  margin-bottom: 32px;
+}
+
+.job__banner-img {
+  height: 100%;
 }
 
 .jobs__details-heading {
